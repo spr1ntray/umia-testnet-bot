@@ -20,7 +20,7 @@ python main.py
 ## Первый старт
 
 1. Запусти `python main.py`, чтобы создать файлы в `input/`.
-2. Добавь ключи в `input/private_keys.txt`, прокси — в `input/proxies.txt`.
+2. Добавь ключи в `input/private_keys.txt`, прокси - в `input/proxies.txt`.
 3. Добавь Capsolver API key в `input/capsolver_api_key.txt` (нужен для auto-reg / faucet).
 4. Выбери **Создать/обновить зашифрованную базу**, затем **Полный цикл**.
 
@@ -36,7 +36,7 @@ python main.py
 | Полный цикл | auto-reg → faucet → swap / auction bids |
 | Только faucet | регистрация + кран |
 | Только активности | без faucet |
-| Парсинг статистики | балансы, nonce, holdings, bids — таблица + CSV |
+| Парсинг статистики | балансы, nonce, holdings, bids - таблица + CSV |
 | Создать базу | encrypt keys / proxies / capsolver |
 
 ## Расходники
