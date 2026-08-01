@@ -1,0 +1,2 @@
+# HTTP-прокси 1:1 с ключами: host:port:user:pass
+# Пример: 1.2.3.4:8080:user:pass

@@ -19,12 +19,14 @@ python main.py
 
 ## Первый старт
 
-1. Запусти `python main.py`, чтобы создать файлы в `input/`.
-2. Добавь ключи в `input/private_keys.txt`, прокси - в `input/proxies.txt`.
-3. Добавь Capsolver API key в `input/capsolver_api_key.txt` (нужен для auto-reg / faucet).
-4. Выбери **Создать/обновить зашифрованную базу**, затем **Полный цикл**.
+1. Заполни файлы в `input/`:
+   - `private_keys.txt` - ключи;
+   - `proxies.txt` - прокси 1:1 с ключами;
+   - `capsolver_api_key.txt` - Capsolver API key (для auto-reg / faucet).
+2. `python main.py` → **Создать/обновить зашифрованную базу**.
+3. Снова `python main.py` → **Полный цикл**.
 
-Прокси: `host:port:login:password` (1:1 с ключами).
+Прокси: `host:port:login:password`.
 
 После создания базы plaintext-файлы очищаются. Capsolver при unlock тоже
 вшивается в `database.enc` и файл стирается.

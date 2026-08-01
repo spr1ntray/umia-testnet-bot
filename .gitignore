@@ -6,9 +6,6 @@ __pycache__/
 .pytest_cache/
 input/database.enc
 input/database.salt
-input/private_keys.txt
-input/proxies.txt
-input/capsolver_api_key.txt
 logs/*
 !logs/.gitkeep
 *.har
